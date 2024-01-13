@@ -1,0 +1,6 @@
+[submodule "external/assimp"]
+	path = external/assimp
+	url = git@github.com:assimp/assimp.git
+[submodule "external/polly"]
+	path = external/polly
+	url = git@github.com:ruslo/polly.git
