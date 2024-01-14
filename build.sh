@@ -16,6 +16,8 @@ LIBDIR=$ROOTDIR/lib
 TOOLCHAIN=$OPTDIR/polly/linux-mingw-w64-gnuxx11.cmake
 CXXFLAGS="-Wno-array-bounds -Wno-alloc-size-larger-than -Wno-error=array-compare"
 
+git submodule update --init --recursive
+
 mkdir -p "$TMPDIR" "$LIBDIR" "$INCLUDEDIR"
 cd "$TMPDIR"
 
